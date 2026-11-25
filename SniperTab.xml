@@ -1,0 +1,20 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Frame
+    name="AuctionatorSniperBuyoutTabFrameTemplate"
+    virtual="true"
+    parentKey="AuctionatorSniperBuyoutFrame"
+    mixin="AuctionatorSniperBuyoutTabMixin"
+    hidden="true"
+  >
+    <Scripts>
+      <OnLoad method="OnLoad"/>
+      <OnShow method="OnShow"/>
+      <OnHide method="OnHide"/>
+    </Scripts>
+    <Anchors>
+      <Anchor point="TOP"/>
+      <Anchor point="LEFT" x="4"/>
+      <Anchor point="BOTTOMRIGHT" relativePoint="BOTTOMRIGHT" x="-4" y="27"/>
+    </Anchors>
+  </Frame>
+</Ui>

@@ -1,0 +1,17 @@
+## Interface: 16001
+## Title: Auctionator Sniper Buyout
+## Notes: Zeigt nach einem Auctionator Full Scan alle Items mit Buyout unter Vendor-Verkaufswert (sortiert pro Item & nach Gewinn) mit Direktkauf.
+## Author: Antigravity
+## Version: 1.0.0
+## Dependencies: Auctionator
+## SavedVariables: AuctionatorSniperBuyoutDB
+## IconTexture: Interface\AddOns\AuctionatorSniperBuyout\logo
+## AddonCompartmentFunc: AuctionatorSniperBuyout_OnAddonCompartmentClick
+
+Core.lua
+Scanner.lua
+Buyer.lua
+SniperTab.xml
+UI.lua
+Options.lua
+AuctionatorSniperBuyout.lua
